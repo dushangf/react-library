@@ -1,0 +1,61 @@
+.container {
+  position: relative;
+  width: 250px;
+}
+
+.select {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.search {
+  padding: 0.3rem;
+  width: 100%;
+}
+
+.button {
+  border-left: 1px solid gray;
+  padding: 0.3rem;
+}
+
+.item-list-container {
+  height: 300px;
+  border: 1px solid gray;
+  box-sizing: content-box;
+}
+
+.item-list {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.item:hover {
+  background: rgb(230, 229, 229);
+}
+
+.item {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.3rem;
+}
+
+.loader {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  background: rgb(147, 255, 250);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 80%;
+  font-weight: bold;
+}
+
+.spinner {
+  margin-right: 0.3rem;
+}
