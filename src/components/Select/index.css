@@ -7,25 +7,26 @@
   border: 1px solid gray;
   display: flex;
   align-items: center;
-  padding: 0.3rem;
   width: 100%;
   border-radius: 3px;
 }
 
 .search {
-  padding: 0.3rem;
+  padding: 0.8rem;
   width: 100%;
+  border: none;
 }
 
 .button {
+  border: none;
   border-left: 1px solid gray;
-  padding: 0.3rem;
+  padding: 0.8rem;
+  background: white;
 }
 
 .item-list-container {
   height: 300px;
-  border: 1px solid gray;
-  box-sizing: content-box;
+  border: 1px solid gray
 }
 
 .item-list {
@@ -48,11 +49,10 @@
   display: flex;
   align-items: center;
   padding: 0.3rem;
-  background: rgb(147, 255, 250);
+  background: rgb(80, 176, 255);
   position: absolute;
   bottom: 0;
-  width: 100%;
-  opacity: 80%;
+  width: 95.5%;
   font-weight: bold;
 }
 

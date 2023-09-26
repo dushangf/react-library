@@ -8,7 +8,7 @@ type Props = {
     page?: number,
     search?: string
   ) => Promise<{ value: any; label: string }[]>;
-  onChange: () => void;
+  onChange: (e: { label: string; value: any }) => void;
 };
 
 const Select: React.FC<Props> = ({ fetchData, onChange }) => {
